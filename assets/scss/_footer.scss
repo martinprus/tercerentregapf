@@ -1,0 +1,32 @@
+@import "colores";
+@import "mixins";
+
+footer {
+  div {
+    padding: 3px;
+    div {
+      .textoFooter {
+        @include fontSize(1.3rem, 800);
+        color: grey;
+      }
+    }
+    .iconos {
+      li {
+        margin-right: 5px;
+        padding: 0 3px 0 3px;
+        &:hover{
+          background-color: grey;
+        }
+        .iconoFacebook {
+          color: map-get($map: $colorRedes, $key: facebook);
+        }
+        .iconoTwitter {
+          color: map-get($map: $colorRedes, $key: twitter);
+        }
+        .iconoInstagram {
+          color: map-get($map: $colorRedes, $key: instagram);
+        }
+      }
+    }
+  }
+}

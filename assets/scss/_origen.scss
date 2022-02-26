@@ -1,0 +1,49 @@
+//IMPORTO BOOTSTRAP
+
+@import "scss/bootstrap.scss";
+@import "home";
+
+/* Variables */
+
+$negro: rgba(4, 37, 0, 1);
+$verde: rgba(60, 161, 70, 1);
+$verdeoscuro: darkgreen;
+
+/* Uso de mixing desafio */
+
+@mixin fontSize($tamanio, $peso){
+  font-size: $tamanio;
+  font-weight:$peso;
+}
+
+.letraTitulo{
+  @include fontSize(2.5rem, 800)
+}
+
+.letraSpan{
+  @include fontSize(1rem, 300)
+}
+
+/* Uso de extend desafio */
+
+
+
+/* Uso de maps desafio */
+
+$colorRedes: 
+(twitter: rgb(255, 255, 255),
+facebook: rgb(0, 0, 255),
+instagram: rgb(197, 32, 32));
+
+.iconoFacebook{
+  color: map-get($map: $colorRedes, $key: facebook)
+}
+
+.iconoTwitter{
+  color: map-get($map: $colorRedes, $key: twitter)  
+}
+.iconoInstagram{
+  color: map-get($map: $colorRedes, $key: instagram)  
+}
+
+

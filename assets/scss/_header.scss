@@ -1,0 +1,24 @@
+@import "mixins";
+
+nav {
+  div {
+    a {      
+      padding: 1.5rem;      
+    }
+
+    ul {
+      margin-left: 2rem;
+      li {
+        margin: 5px;
+        border: 2px solid white;
+        border-radius: 15%;
+        a {
+          @include fontSize(1.5rem, 700);
+          &:hover{
+            background-color: grey;
+          }
+        }
+      }
+    }
+  }
+}

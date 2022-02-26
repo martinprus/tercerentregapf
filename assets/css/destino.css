@@ -7809,37 +7809,64 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
-/* Variables */
-/* Uso de mixing desafio */
-.letraTitulo {
-  font-size: 2.5rem;
-  font-weight: 800; }
+nav div a {
+  padding: 1.5rem; }
 
-.letraSpan {
-  font-size: 1rem;
-  font-weight: 300; }
+nav div ul {
+  margin-left: 2rem; }
+  nav div ul li {
+    margin: 5px;
+    border: 2px solid white;
+    border-radius: 15%; }
+    nav div ul li a {
+      font-size: 1.5rem;
+      font-weight: 700; }
+      nav div ul li a:hover {
+        background-color: grey; }
 
-/* Uso de extend desafio */
-.tituloMain1, .tituloMain2, .tituloMain3 {
-  color: #a512d1; }
-  .tituloMain1 span, .tituloMain2 span, .tituloMain3 span {
-    background-color: antiquewhite;
-    font-size: medium; }
-    .tituloMain1 span:hover, .tituloMain2 span:hover, .tituloMain3 span:hover {
-      text-decoration: underline; }
+footer div {
+  padding: 3px; }
+  footer div div .textoFooter {
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: grey; }
+  footer div .iconos li {
+    margin-right: 5px;
+    padding: 0 3px 0 3px; }
+    footer div .iconos li:hover {
+      background-color: grey; }
+    footer div .iconos li .iconoFacebook {
+      color: blue; }
+    footer div .iconos li .iconoTwitter {
+      color: white; }
+    footer div .iconos li .iconoInstagram {
+      color: #c52020; }
 
-.tituloMain2 {
-  color: #cf5707; }
+main {
+  background-color: #f9fcff;
+  background-image: linear-gradient(147deg, #f9fcff 0%, #dee4ea 74%); }
+  main div .h1Home {
+    margin-top: 1rem;
+    font-size: 3rem;
+    font-weight: 800;
+    color: lightblue; }
+  main .tituloMain1, main .tituloMain2, main .tituloMain3 {
+    text-transform: uppercase;
+    color: #a512d1; }
+    main .tituloMain1 span, main .tituloMain2 span, main .tituloMain3 span {
+      font-size: 1.5rem;
+      font-weight: 300; }
+      main .tituloMain1 span:hover, main .tituloMain2 span:hover, main .tituloMain3 span:hover {
+        text-decoration: underline; }
+  main .tituloMain2 {
+    color: #cf5707; }
+  main .tituloMain3 {
+    color: #047c8b; }
+  main .textoMain {
+    font-size: 1.2rem;
+    font-weight: 200;
+    text-align: center; }
 
-.tituloMain3 {
-  color: #047c8b; }
-
-/* Uso de maps desafio */
-.iconoFacebook {
-  color: blue; }
-
-.iconoTwitter {
-  color: white; }
-
-.iconoInstagram {
-  color: #c52020; }
+html, body {
+  max-width: 100% !important;
+  overflow-x: hidden !important; }

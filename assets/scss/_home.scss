@@ -1,0 +1,40 @@
+@import "mixins";
+
+main {
+  background-color: #f9fcff;
+  background-image: linear-gradient(147deg, #f9fcff 0%, #dee4ea 74%);
+  div .h1Home {
+    margin-top: 1rem;
+    @include fontSize(3rem, 800);
+    color:lightblue;
+  }
+
+
+    .tituloMain1 {
+      text-transform: uppercase;
+      color: rgb(165, 18, 209);
+      span {
+        @include fontSize(1.5rem, 300);
+        &:hover {
+          text-decoration: underline;
+        }      
+      }
+    } 
+
+  .tituloMain2 {
+    @extend .tituloMain1;
+    color: rgb(207, 87, 7);
+  }
+
+  .tituloMain3 {
+    @extend .tituloMain1;
+    color: rgb(4, 124, 139);
+  }
+
+  .textoMain{
+    @include fontSize(1.2rem, 200);
+    text-align: center;
+  }
+
+
+}
