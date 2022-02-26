@@ -7871,6 +7871,41 @@ main {
     font-weight: 200;
     text-align: center; }
 
+.listaServicios {
+  border: 1px solid black;
+  margin: 5px;
+  background-color: lightgray; }
+  .listaServicios:hover {
+    border: 3px solid black; }
+  .listaServicios .tituloServicios {
+    color: #2c83a0;
+    font-size: 2.5rem;
+    font-weight: 700; }
+  .listaServicios ul {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #2d2d7e; }
+
+.tablaServicios h2, .tablaServicios .h2 {
+  text-decoration: underline;
+  color: #2c83a0; }
+
+.tablaServicios th {
+  color: lightblue; }
+
+.tablaServicios td {
+  color: #9e5c11; }
+
+.formContacto {
+  border: 5px solid lightgray;
+  padding: 20px; }
+  .formContacto label {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-decoration: underline; }
+
 html, body {
   max-width: 100% !important;
   overflow-x: hidden !important; }

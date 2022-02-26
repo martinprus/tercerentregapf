@@ -1,0 +1,34 @@
+@import "mixins";
+@import "colores";
+
+.listaServicios{
+    border: 1px solid black;
+    margin: 5px;
+    background-color:lightgray;
+    &:hover{
+        border: 3px solid black;
+    }
+
+    .tituloServicios{
+        color: $colorH2;
+        @include fontSize(2.5rem, 700)
+    }
+
+    ul{
+        @include fontSize(1.5rem, 700);
+        color: $colorLista;
+    }
+}
+
+.tablaServicios{
+    h2{
+        text-decoration: underline;
+        color: $colorH2;        
+    }    
+    th{
+        color: lightblue;
+    }
+    td{
+        color: $colorTabla;
+    }
+}

@@ -1,0 +1,14 @@
+@import "mixins";
+@import "colores";
+
+.formContacto{
+    border: 5px solid lightgray;
+    padding: 20px;
+
+    label{
+        @include fontSize(1rem, 700);
+        margin-bottom: 10px;
+        padding: 5px;
+        text-decoration: underline;
+    }
+}
