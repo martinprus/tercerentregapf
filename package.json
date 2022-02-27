@@ -1,5 +1,5 @@
 {
-  "name": "entrega-scss",
+  "name": "tercerentregapf",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/martinprus/segundaentregapf.git"
+    "url": "git+https://github.com/martinprus/tercerentregapf.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/martinprus/segundaentregapf/issues"
+    "url": "https://github.com/martinprus/tercerentregapf/issues"
   },
-  "homepage": "https://github.com/martinprus/segundaentregapf#readme",
+  "homepage": "https://github.com/martinprus/tercerentregapf#readme",
   "devDependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.15"
