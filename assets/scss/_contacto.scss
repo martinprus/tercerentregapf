@@ -1,12 +1,15 @@
 @import "mixins";
 @import "colores";
 
+/*Formato para formulario de contacto*/
+
 .formContacto{
     border: 5px solid lightgray;
     padding: 20px;
 
-    label{
-        @include fontSize(1rem, 700);
+    .labelContacto{
+        @include fontSize(1.1rem, 700);
+        color: $colorH2;
         margin-bottom: 10px;
         padding: 5px;
         text-decoration: underline;

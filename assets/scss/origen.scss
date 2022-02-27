@@ -6,8 +6,13 @@
 @import "home";
 @import "servicios";
 @import "contacto";
+@import "login";
+@import "capacitacion";
 
-html, body {
+//El código debajo lo use porquen vista mobile me quedaba un espacio en blanco a la izquierda
+
+html,
+body {
   max-width: 100% !important;
   overflow-x: hidden !important;
 }

@@ -1,0 +1,20 @@
+@import "mixins";
+@import "colores";
+
+/*Formato para las cards de Capacitacion */
+
+.tarjeta{
+    padding: 5px;
+    border: 2px solid lightblue;
+    &:hover{
+        border: 5px solid lightblue;        
+    }
+    .lead{
+        text-align: center;
+        @include fontSize(1.5rem, 400);
+        color: $colorH2;
+    }
+    p{
+        color: $colortextoCapacitacion;
+    }
+}

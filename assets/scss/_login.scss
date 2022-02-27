@@ -1,0 +1,21 @@
+@import "mixins";
+@import "colores";
+@import "contacto";
+
+
+/*Formato Login */
+
+.mainLogin {
+  min-height: 85vh;
+  form {
+    border: 5px solid lightgray;
+    padding: 20px;
+    .labelLogin {
+      @include fontSize(1.1rem, 700);
+      color: $colorH2;
+      margin-bottom: 10px;
+      padding: 5px;
+      text-decoration: underline;
+    }
+  }
+}

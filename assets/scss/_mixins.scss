@@ -1,3 +1,5 @@
+//Mixin para fontsize aplicando lo visto en clase
+
 @mixin fontSize($tam, $peso){
     font-size: $tam;
     font-weight: $peso;

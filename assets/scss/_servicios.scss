@@ -1,6 +1,11 @@
 @import "mixins";
 @import "colores";
 
+/*Formato de servicios */
+
+
+/*Contenedor con listas */
+
 .listaServicios{
     border: 1px solid black;
     margin: 5px;
@@ -19,6 +24,8 @@
         color: $colorLista;
     }
 }
+
+/*Contenedor con la tabla */
 
 .tablaServicios{
     h2{

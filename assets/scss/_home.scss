@@ -1,6 +1,8 @@
 @import "mixins";
 @import "colores";
 
+/*Formato de la pagina principal */
+
 main{
   background-color: $colorfondo;
   background-image: $colorimage;
@@ -17,6 +19,8 @@ main{
       border-bottom: 2px solid black;
     }
   }
+
+  /*Aplicando extend y maps para los colores de los titulos */
 
     .tituloMain1 {
       text-transform: uppercase;

@@ -7809,6 +7809,7 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
+/*Formato de header */
 nav div a {
   padding: 1.5rem; }
 
@@ -7824,6 +7825,7 @@ nav div ul {
       nav div ul li a:hover {
         background-color: grey; }
 
+/*Formato de footer aplicando anidado */
 footer div {
   padding: 3px; }
   footer div div .textoFooter {
@@ -7842,9 +7844,11 @@ footer div {
     footer div .iconos li .iconoInstagram {
       color: #c52020; }
 
+/*Formato de la pagina principal */
 main {
   background-color: #f9fcff;
-  background-image: linear-gradient(147deg, #f9fcff 0%, #dee4ea 74%); }
+  background-image: linear-gradient(147deg, #f9fcff 0%, #dee4ea 74%);
+  /*Aplicando extend y maps para los colores de los titulos */ }
   main div .h1 {
     margin-top: 1rem;
     font-size: 3rem;
@@ -7871,6 +7875,8 @@ main {
     font-weight: 200;
     text-align: center; }
 
+/*Formato de servicios */
+/*Contenedor con listas */
 .listaServicios {
   border: 1px solid black;
   margin: 5px;
@@ -7886,6 +7892,7 @@ main {
     font-weight: 700;
     color: #2d2d7e; }
 
+/*Contenedor con la tabla */
 .tablaServicios h2, .tablaServicios .h2 {
   text-decoration: underline;
   color: #2c83a0; }
@@ -7896,16 +7903,59 @@ main {
 .tablaServicios td {
   color: #9e5c11; }
 
+/*Formato para formulario de contacto*/
 .formContacto {
   border: 5px solid lightgray;
   padding: 20px; }
-  .formContacto label {
-    font-size: 1rem;
+  .formContacto .labelContacto {
+    font-size: 1.1rem;
     font-weight: 700;
+    color: #2c83a0;
     margin-bottom: 10px;
     padding: 5px;
     text-decoration: underline; }
 
-html, body {
+/*Formato para formulario de contacto*/
+.formContacto {
+  border: 5px solid lightgray;
+  padding: 20px; }
+  .formContacto .labelContacto {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #2c83a0;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-decoration: underline; }
+
+/*Formato Login */
+.mainLogin {
+  min-height: 85vh; }
+  .mainLogin form {
+    border: 5px solid lightgray;
+    padding: 20px; }
+    .mainLogin form .labelLogin {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #2c83a0;
+      margin-bottom: 10px;
+      padding: 5px;
+      text-decoration: underline; }
+
+/*Formato para las cards de Capacitacion */
+.tarjeta {
+  padding: 5px;
+  border: 2px solid lightblue; }
+  .tarjeta:hover {
+    border: 5px solid lightblue; }
+  .tarjeta .lead {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #2c83a0; }
+  .tarjeta p {
+    color: #3c6c7c; }
+
+html,
+body {
   max-width: 100% !important;
   overflow-x: hidden !important; }
